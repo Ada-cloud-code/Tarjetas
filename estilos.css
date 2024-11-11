@@ -1,0 +1,71 @@
+/* Escribe aquí tus estilos CSS */
+body {
+    font-family: sans-serif;
+}
+
+.title {
+    text-align: center;
+    font-size: 2.5em;
+    font-style: italic;
+    color: #6a6a6a;
+}
+
+li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    text-align: center;
+    color: #6a6a6a;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: gray;
+}
+
+a:hover {
+    text-decoration: underline;
+  }
+  
+a:focus {
+    text-decoration: underline;
+}
+  
+a:active {
+    text-decoration: none;
+}
+
+/* Estilo para las tarjetas (articles) */
+article {
+    width: 330px;                      /* Ancho de la tarjeta */
+    height: 400px;                     /* Altura de la tarjeta */
+    margin: 20px auto;                 /* Centra la tarjeta en la página */
+    border-radius: 8px;                /* Bordes redondeados */
+    overflow: hidden;                  /* Oculta cualquier contenido que sobresalga */
+    border: 1px solid lightgrey;       /* Borde gris claro de 1px */
+    text-align: center;                /* Alineación del texto al centro */
+    background-color: #fff;            /* Fondo blanco */
+}
+
+/* Estilo para las imágenes dentro de las tarjetas */
+article img {
+    width: 100%;                       /* Asegura que la imagen no sobresalga */
+    height: auto;                      /* Mantiene la proporción de la imagen */
+}
+
+/* Estilo para los enlaces dentro de las tarjetas */
+article a {
+    color: blue;                       /* Color azul para los enlaces */
+    text-decoration: none;              /* Quita el subrayado por defecto */
+}
+
+/* Estilo cuando el cursor pasa por encima de los enlaces */
+article a:hover {
+    text-decoration: underline;        /* Subraya el enlace al pasar el cursor */
+}
